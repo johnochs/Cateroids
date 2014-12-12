@@ -7,7 +7,7 @@ canvas {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin: -400px 0 0 -600px;
+	margin: -300px 0 0 -400px;
 }
 
 audio {
@@ -29,4 +29,3 @@ audio {
   	transform: rotate(360deg);
 /*	transition: 1s;*/
 }
-
