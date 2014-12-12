@@ -1,0 +1,32 @@
+body {
+	background-color: black;
+}
+canvas {
+	background-image: url("spacecat.gif");
+	background-size: 100% 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -400px 0 0 -600px;
+}
+
+audio {
+	display: none;
+}
+
+.gallery-piece {
+	z-index: -1;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+  	max-width: 200px;
+  	max-height: 120px;
+  	-webkit-box-shadow: 0px 0px 71px -2px rgba(255,200,36,0.54);
+  	-moz-box-shadow: 0px 0px 71px -2px rgba(255,200,36,0.54);
+  	box-shadow: 0px 0px 71px -2px rgba(255,200,36,0.54);
+  	-ms-transform: rotate(360deg); /* IE 9 */
+  	-webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+  	transform: rotate(360deg);
+/*	transition: 1s;*/
+}
+
